@@ -26,7 +26,7 @@ df = pd.read_csv(csv_path)
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-#df = pd.read_csv("/Users/kimmeebusby/Desktop/ML/ML Project/Bells Palsy Clinical Trial.csv")
+#df = pd.read_csv("Bells Palsy Clinical Trial.csv")
 
 #Changing Sex to dummy variables, Male = 1, Female = 0
 df["Sex"]= (df["Sex"] == "Male").astype(int)
